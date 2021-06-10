@@ -51,14 +51,12 @@ header {
   list-style: none;
 }
 .sitenav__list-item {
-  border: 3px solid transparent;
   margin-right: 30px;
   padding-bottom: 27px;
   padding-top: 32px;
 }
 .sitenav__list-item:hover {
   margin-right: 30px;
-  border-bottom: 3px solid #333;
 }
 .sitenav__link {
   text-decoration: none;
@@ -78,4 +76,49 @@ header {
 .button:hover {
   background-color: var(--color-primary-white);
   color: var(--color-secondary-dark-green);
+}
+.hero {
+  position: relative;
+background-color: var(--color-primary-midnight-green);
+}
+.hero__wrapper {
+  display: flex;
+  padding-top: 129px;
+  padding-bottom: 250px;
+}
+.hero__heading {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  max-width: 635px;
+  font-size: 103px;
+  line-height: 100px;
+  font-weight: bold;
+  color: var(--color-primary-white);
+}
+.hero__text-right {
+  width: 635px;
+}
+.heading__red {
+  color: var(--color-primary-light-coral);
+}
+.hero__heading::after {
+  background-image: url(../img/bg-img-hero-left.svg);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero__text-left {
+  width: 445px;
+}
+.hero__content {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-primary-white);
 }
