@@ -1,3 +1,13 @@
+:root {
+  --color-primary-midnight-green: #014E56;
+  --color-primary-light-coral: #f67e7e;
+  --color-primary-white: #fff;
+  --color-secondary-rapture-blue: #79c8c7;
+  --color-secondary-police-blue: #2c6269;
+  --color-secondary-deep-jungle-green: #004047;
+  --color-secondary-sacramento: #012f34;
+  --color-secondary-dark-green: #002529;
+}
 html {
   box-sizing: border-box;
 }
@@ -10,12 +20,62 @@ html {
 
 
 body {
+  font-family: 'Livvic', 'Arial', sans-serif;
+  font-weight: 600;
 
 }
 .container {
-  max-width: 1100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1160px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
+}
+header {
+  background-color: var(--color-primary-midnight-green);
+  padding-top: 77px;
+}
+.wrapper__header {
+  display: flex;
+  align-items: center;
+}
+.sitenav {
+  margin-left: 80px;
+  margin-right: auto;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sitenav__list-item {
+  border: 3px solid transparent;
+  margin-right: 30px;
+  padding-bottom: 27px;
+  padding-top: 32px;
+}
+.sitenav__list-item:hover {
+  margin-right: 30px;
+  border-bottom: 3px solid #333;
+}
+.sitenav__link {
+  text-decoration: none;
+  color: var(--color-primary-white);
+}
+.sitenav__link:hover {
+  color: var(--color-primary-light-coral);
+}
+.button {
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: var(--color-primary-white);
+  padding: 10px 32px;
+}
+.button:hover {
+  background-color: var(--color-primary-white);
+  color: var(--color-secondary-dark-green);
 }
