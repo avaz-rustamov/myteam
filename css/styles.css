@@ -83,6 +83,7 @@ background-color: var(--color-primary-midnight-green);
 }
 .hero__wrapper {
   display: flex;
+  align-items: center;
   padding-top: 129px;
   padding-bottom: 250px;
 }
@@ -117,8 +118,96 @@ background-color: var(--color-primary-midnight-green);
   width: 445px;
 }
 .hero__content {
+  padding: 0;
+  margin: 0;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   color: var(--color-primary-white);
+}
+.hero__content::after {
+  content: "";
+  height: 4px;
+  border-bottom: 4px solid
+  #79C8C7;
+  width: 50px;
+}
+
+/* FEATURE */
+.feature {
+
+  background-color: var(--color-secondary-sacramento);
+  padding-top: 198px;
+  padding-bottom: 140px;
+}
+.feature__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature__heading-wrapper {
+  width: 445px;
+}
+.feature__herding {
+  margin: 0;
+  font-weight: 700;
+  color: var(--color-primary-white);
+  font-size: 48px;
+  line-height: 48px;
+}
+.feature__list-wrapper {
+  width: 445px;
+}
+.feature__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.feature__item {
+  display: flex;
+  align-items: center;
+}
+.feature__item::before {
+  padding: 38px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  display: block;
+  background-image: url(../img/feature-icon-person.svg);
+  content: "";
+}
+.setting::before {
+  background-image: url(../img/feature-icon-setting.svg);
+}
+.chart::before {
+  background-image: url(../img/feature-icon-chart.svg);
+}
+.feature__list-heading {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-primary-light-coral);
+}
+.feature__list-text {
+  color: var(--color-primary-white);
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.8;
+}
+/* REVIEW */
+.review {
+  background-color: var(--color-secondary-deep-jungle-green);
+  padding-top: 140px;
+  padding-bottom: 150px;
+}
+.review__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+.review__heading-blue {
+  color: var(--color-secondary-rapture-blue);
 }
