@@ -411,6 +411,7 @@ header {
 }
 .info__heading {
   margin: 0;
+  margin-bottom: 64px;
   text-align: center;
   font-weight: 700;
   font-size: 48px;
@@ -418,13 +419,19 @@ header {
   color: var(--color-primary-white);
 }
 .info__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
   padding-left: 0;
   list-style: none;
 }
 .info__item {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 76px;
   width: 350px;
   text-align: center;
-  padding: 24px;
+  padding: 32px 24px 56px;
   background-color: var(--color-secondary-sacramento);
 }
 .info__list-heading {
@@ -442,14 +449,20 @@ header {
   line-height: 28px;
   color: var(--color-primary-white)
 }
-.button {
+.button-plus {
+  position: absolute;
+  left: 145px;
+  bottom: -25px;
   border-radius: 50%;
-  text-align: center;
   border: none;
   width: 56px;
   height: 56px;
   background-color: var(--color-primary-light-coral);
 }
-.button:hover {
+.button-plus:hover {
   background-color: var(--color-secondary-rapture-blue);
+}
+.button__img {
+  /* display: flex;
+  justify-content: center; */
 }
