@@ -215,7 +215,9 @@ header {
 .review__item {
   text-align: center;
   position: relative;
+  z-index: 1;
   padding-bottom: 80px;
+  padding-top: 35px;
   width: 350px;
   margin-left: 30px;
 
@@ -228,19 +230,20 @@ header {
   margin-left: -30px;
   list-style: none;
 }
-/* .review__item::after {
+.review__item::before {
   content: "";
   display: block;
   background-repeat: no-repeat;
-  background-image: url(../img/kady.png);
-  width: 66px;
-  height: 66px;
+  background-image: url(../img/comas.svg);
+  width: 67px;
+  height: 56px;
   position: absolute;
-  bottom: 0;
+  z-index: -1;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
 
-} */
+}
 .review__item-text {
   font-size: 15px;
   line-height: 25px;
