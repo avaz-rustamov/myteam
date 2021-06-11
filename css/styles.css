@@ -79,7 +79,7 @@ header {
 }
 .hero {
   position: relative;
-background-color: var(--color-primary-midnight-green);
+  background-color: var(--color-primary-midnight-green);
 }
 .hero__wrapper {
   display: flex;
@@ -207,7 +207,61 @@ background-color: var(--color-primary-midnight-green);
   line-height: 48px;
   text-align: center;
   color: var(--color-primary-white);
+  margin-bottom: 92px;
 }
 .review__heading-blue {
   color: var(--color-secondary-rapture-blue);
+}
+.review__item {
+  text-align: center;
+  position: relative;
+  padding-bottom: 80px;
+  width: 350px;
+  margin-left: 30px;
+
+
+}
+.review__list {
+  display: flex;
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: -30px;
+  list-style: none;
+}
+/* .review__item::after {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(../img/kady.png);
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+} */
+.review__item-text {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-primary-white);
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.review__item-heading {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-secondary-rapture-blue);
+}
+.review__item-text-buttom {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 32px;
+
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-primary-white);
 }
