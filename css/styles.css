@@ -466,3 +466,26 @@ header {
   /* display: flex;
   justify-content: center; */
 }
+.site-client {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--color-secondary-sacramento);
+}
+.container {
+}
+.client__heading {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-primary-white);
+  text-align: center;
+}
+.client__list {
+  padding-left: 0;
+  list-style: none;
+}
+.client__item {
+}
+.client__img {
+}
