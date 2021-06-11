@@ -74,6 +74,7 @@ header {
   padding: 10px 32px;
 }
 .button:hover {
+  transition: 0.3s ease;
   background-color: var(--color-primary-white);
   color: var(--color-secondary-dark-green);
 }
@@ -266,5 +267,34 @@ header {
 
   font-size: 13px;
   line-height: 18px;
+  color: var(--color-primary-white);
+}
+.red {
+  background-color: var(--color-primary-light-coral);
+}
+.container {
+}
+.red__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 76px;
+
+}
+.red__heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-secondary-sacramento);
+}
+.button {
+}
+.button-red {
+  padding: 12px  33px 10px;
+  color: var(--color-secondary-sacramento);
+}
+.button-red:hover {
+  background-color: var(--color-secondary-sacramento);
   color: var(--color-primary-white);
 }
