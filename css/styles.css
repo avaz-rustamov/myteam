@@ -82,14 +82,14 @@ header {
 .hero {
   position: relative;
   background-color: var(--color-primary-midnight-green);
-  background-image: url(../img/bg-img-hero-leftt.svg), url(../img/bg-img-hero-right.svg);
+  background-image: url(../img/hero-bg-img.svg), url(../img/bg-img-hero-right.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% - 700px) 70px , left calc(50% + 350px) bottom -100px;
+  background-position: calc(50% - 720px) 70px , left calc(50% + 350px) bottom -100px;
 }
 .hero__wrapper {
   display: flex;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 250px;
 }
 .hero__heading {
@@ -285,10 +285,9 @@ header {
   background-color: var(--color-primary-light-coral);
   background-image: url(../img/footer-red.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% - 600px) 60px;
+  background-position: calc(50% - 620px) 60px;
 }
-.container {
-}
+
 .red__wrapper {
   display: flex;
   justify-content: space-between;
@@ -303,8 +302,7 @@ header {
   line-height: 48px;
   color: var(--color-secondary-sacramento);
 }
-.button {
-}
+
 .button-red {
   padding: 12px  33px 10px;
   color: var(--color-secondary-sacramento);
@@ -372,7 +370,17 @@ header {
   background-color: var(--color-primary-midnight-green);
   background-image: url(../img/about-bg-img.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% + 700px) bottom;
+  background-position: calc(50% + 720px) bottom;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 250px;
+}
+.about__text-right {
+  padding-bottom: 60px;
 }
 .about__heading {
   margin: 0;
@@ -382,6 +390,7 @@ header {
   line-height: 100px;
   color: var(--color-primary-white);
 }
+
 .about__text-wrapper {
   width: 730px;
 }
@@ -407,7 +416,7 @@ header {
   background-color: var(--color-secondary-deep-jungle-green);
   background-image: url(../img/info-bg-top.svg), url(../img/info-bg-bottom.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% - 700px) top, calc(50% + 610px) bottom;
+  background-position: calc(50% - 720px) top, calc(50% + 645px) bottom;
 
 }
 .info {
@@ -477,7 +486,7 @@ header {
   background-color: var(--color-secondary-sacramento);
   background-image: url(../img/client-bg-img.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% - 600px) top;
+  background-position: calc(50% - 620px) top;
 
 }
 
