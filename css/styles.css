@@ -283,6 +283,9 @@ header {
 }
 .red {
   background-color: var(--color-primary-light-coral);
+  background-image: url(../img/footer-red.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 600px) 60px;
 }
 .container {
 }
@@ -402,8 +405,10 @@ header {
 }
 .site-info {
   background-color: var(--color-secondary-deep-jungle-green);
-}
-.container {
+  background-image: url(../img/info-bg-top.svg), url(../img/info-bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 700px) top, calc(50% + 610px) bottom;
+
 }
 .info {
   padding-top: 140px;
@@ -470,9 +475,12 @@ header {
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: var(--color-secondary-sacramento);
+  background-image: url(../img/client-bg-img.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 600px) top;
+
 }
-.container {
-}
+
 .client__heading {
   margin-top: 0;
   font-weight: 700;
@@ -480,12 +488,16 @@ header {
   line-height: 48px;
   color: var(--color-primary-white);
   text-align: center;
+  margin-bottom: 68px;
 }
 .client__list {
+  display: flex;
+  align-items: center;
   padding-left: 0;
   list-style: none;
 }
 .client__item {
+  flex-grow: 1;
 }
 .client__img {
 }
