@@ -502,6 +502,7 @@ header {
 .client__list {
   display: flex;
   align-items: center;
+  align-items: center;
   padding-left: 0;
   list-style: none;
 }
@@ -509,4 +510,5 @@ header {
   flex-grow: 1;
 }
 .client__img {
+  display: inline;
 }
